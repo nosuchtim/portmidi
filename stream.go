@@ -14,11 +14,11 @@
 
 package portmidi
 
-// #cgo LDFLAGS: -lportmidi
-//
 // #include <stdlib.h>
-// #include <portmidi.h>
-// #include <porttime.h>
+// #include <../../../libs/portmidi/pm_common/portmidi.h>
+// #include <../../../libs/portmidi/porttime/porttime.h>
+// #cgo LDFLAGS: ${SRCDIR}/../../../libs/portmidi/pm_mingw/build/libportmidi_s.a
+// #cgo LDFLAGS: -lwinmm
 import "C"
 
 import (

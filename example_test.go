@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/rakyll/portmidi"
+	"github.com/nosuchtim/portmidi"
 )
 
 func ExampleStream_WriteSysEx() {
